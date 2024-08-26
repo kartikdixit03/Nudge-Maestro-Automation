@@ -1,0 +1,20 @@
+appId: com.example.nudgetest_demoqa1
+---
+- clearState
+- launchApp
+- tapOn: "Track story"
+- tapOn: "User Identifier"
+- tapOn: "Track Quiz"
+- tapOn: "START QUIZ"
+- tapOn: "c) Paris"
+- tapOn: "b) Oxygen"
+- tapOn: "c) William Shakespeare"
+- tapOn: "c) Jupiter"
+- tapOn: "b) 1912"
+- tapOn: "c) 2"
+- tapOn: "c) Leonardo da Vinci"
+- tapOn: "b) Avocado"
+- tapOn: "b) Japan"
+- tapOn: "a) 0"
+#- tapOn: "MY REWARDS"
+- tapOn: "BACK TO HOME"
