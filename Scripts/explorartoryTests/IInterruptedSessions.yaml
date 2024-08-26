@@ -5,6 +5,6 @@ appId: com.example.nudgetest_demoqa1
 - tapOn: "Track Story"
 - tapOn: "User Identifier"
 - tapOn: "Track Quiz"
-- stopApp: com.example.nudgetest_demoqa1
+- stopApp: appId
 - assertNotVisible: "Quiz Page"
 
