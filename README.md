@@ -10,11 +10,11 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/example/repo.git
+    git clone https://github.com/kartikdixit03/Nudge-Maestro-Automation.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd repo
+    cd Nudge-Maestro-Automatio
     ```
 3. Install the dependencies:
     ```sh
