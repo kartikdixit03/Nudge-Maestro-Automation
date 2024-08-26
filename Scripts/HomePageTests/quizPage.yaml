@@ -1,0 +1,9 @@
+# Sequential Flow - Track Story -> User Identifier -> Track Quiz
+appId: com.example.nudgetest_demoqa1
+---
+- clearState
+- launchApp
+- tapOn: "Track Story"
+- tapOn: "User Identifier"
+- tapOn: "Track Quiz"
+- assertVisible: "Quiz Page"  # Verify the quiz page is displayed

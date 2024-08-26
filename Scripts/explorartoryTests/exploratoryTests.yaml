@@ -1,0 +1,13 @@
+#Unusual Navigation Sequence
+appId: com.example.nudgetest_demoqa1
+---
+- clearState
+- launchApp
+- tapOn: "Track Quiz"
+- tapOn: "User Identifier"
+- back
+- tapOn: "Track Story"
+- tapOn: "Delete User"
+- tapOn: "User Identifier"
+- tapOn: "Track Quiz"
+- assertVisible: "Quiz Page"

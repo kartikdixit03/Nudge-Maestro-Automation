@@ -1,0 +1,26 @@
+appId: com.example.nudgetest_demoqa1
+---
+- clearState
+- launchApp
+- tapOn: "Track Story"
+- tapOn: "User Identifier"
+- tapOn: "Track Quiz"
+- tapOn: "START QUIZ"
+- tapOn: "c) Paris"  # Select answers
+- tapOn: "b) Oxygen"
+- tapOn: "c) William Shakespeare"
+- tapOn: "c) Jupiter"
+- tapOn: "b) 1912"
+- tapOn: "c) 2"
+- tapOn: "c) Leonardo da Vinci"
+- tapOn: "b) Avocado"
+- tapOn: "b) Japan"
+- tapOn: "a) 0"
+- tapOn: "BACK TO HOME"
+- tapOn: "Delete User"
+- tapOn: "User Identifier"
+- tapOn: "Track Quiz"
+- assertVisible: "Quiz Page"
+
+#  this test script will Quiz Page, select answers, return to Home,
+#  delete user, and verify the Quiz Page is displayed again

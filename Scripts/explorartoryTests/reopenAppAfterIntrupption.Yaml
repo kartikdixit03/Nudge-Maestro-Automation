@@ -1,0 +1,13 @@
+appId: com.example.nudgetest_demoqa1
+---
+- clearState
+- launchApp
+- tapOn: "Track Story"
+- tapOn: "User Identifier"
+- tapOn: "Track Quiz"
+- stopApp: com.example.nudgetest_demoqa1
+- launchApp
+- tapOn: "Track Quiz"
+- assertVisible: "START QUIZ"
+
+#  Session Persistence After App Termination

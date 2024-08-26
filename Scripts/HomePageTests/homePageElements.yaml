@@ -1,0 +1,13 @@
+appId: com.example.nudgetest_demoqa1
+---
+- clearState
+- launchApp
+- assertVisible: "Track Story"
+- assertVisible: "User Identifier"
+- assertVisible: "Track Quiz"
+- assertVisible: "Delete User"
+
+# this test script will verify that the Track Story, User Identifier,
+# Track Quiz, and Delete User buttons are displayed on the
+
+

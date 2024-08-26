@@ -1,0 +1,11 @@
+appId: com.example.nudgetest_demoqa1
+---
+- clearState
+- launchApp
+- repeat:
+    times: 5
+    commands:
+      - tapOn: "Track Story"
+- tapOn: "User Identifier"
+- tapOn: "Track Quiz"
+- assertVisible: "START QUIZ"
