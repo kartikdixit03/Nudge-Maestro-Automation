@@ -1,4 +1,5 @@
-```markdown
+# Project Title
+
 ## Prerequisites
 
 - Java
@@ -9,11 +10,11 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/kartikdixit03/Nudge-Maestro-Automation.git
+    git clone https://github.com/example/repo.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd Nudge-Maestro-Automation
+    cd repo
     ```
 3. Install the dependencies:
     ```sh
@@ -27,24 +28,17 @@
 
 ## Test Scripts
 
-- Scripts
+- **Exploratory Tests**
+  - `deleteUserOngoinQuiz.yaml`
+  - `exploratoryTests.yaml`
+  
+- **Home Page Tests**
+  - `attemptQuiz.yaml`
+  - `homePageElements.yaml`
 
-  - explorartory Tests
-    - deleteUserOngoinQuiz.yaml
-    - exploratoryTests.yaml
-    - InterruptedSessions.yaml
-    - RapidSequence.yaml
-    - reopenAppAfterIntrupption.yaml
+## Running Tests
 
-  - HomePageTests
-    - attemptQuiz.yaml
-    - homePageElements.yaml
-    - quizPage.yaml
-  - UserFlowTest
-    - unusualNavigationSequence.yaml
+To execute a specific test script, use the following command:
 
-Command to run:
 ```sh
 maestro test Scripts/HomePageTests/FileName.yaml
-```
-```
