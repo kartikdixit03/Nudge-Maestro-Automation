@@ -8,11 +8,11 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/kartikdixit03/Nudge-Maestro-Automatio.git
+    git clone https://github.com/kartikdixit03/Nudge-Maestro-Automation.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd your-repo-name
+    cd Nudge-Maestro-Automatio
     ```
 3. Install the dependencies:
     ```sh
