@@ -24,21 +24,18 @@
 ## Usage
 
 1. Open the project in IntelliJ IDEA.
-2. Run the test scripts using the IDE's built-in test runner.
+2. Run the test scripts using the terminal via commands.
 
 ## Test Scripts
 
 - **Exploratory Tests**
-  - `deleteUserOngoinQuiz.yaml`
-  - `exploratoryTests.yaml`
-  
+- **User flow  Tests** 
 - **Home Page Tests**
-  - `attemptQuiz.yaml`
-  - `homePageElements.yaml`
+  `
 
 ## Running Tests
 
 To execute a specific test script, use the following command:
 
 ```sh
-maestro test Scripts/HomePageTests/FileName.yaml
+maestro test Scripts/DirectoryName/FileName.yaml
