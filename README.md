@@ -1,5 +1,7 @@
 # Nudge-Maestro-Automation
 
+- **TestCases : https://docs.google.com/document/d/1Op2VApCCYt5Q3kiQ49IcBoJLDwS20S9VtmsgQ5nFFSA/edit#heading=h.5q2sw6ftu8s0**
+
 ## Prerequisites
 
 - Java
@@ -14,7 +16,7 @@
     ```
 2. Navigate to the project directory:
     ```sh
-    cd Nudge-Maestro-Automatio
+    cd Nudge-Maestro-Automation
     ```
 3. Install the dependencies:
     ```sh
