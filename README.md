@@ -1,3 +1,4 @@
+```markdown
 ## Prerequisites
 
 - Java
@@ -12,7 +13,7 @@
     ```
 2. Navigate to the project directory:
     ```sh
-    cd Nudge-Maestro-Automatio
+    cd Nudge-Maestro-Automation
     ```
 3. Install the dependencies:
     ```sh
@@ -26,28 +27,24 @@
 
 ## Test Scripts
 
-### `attemptQuiz.yaml`
+- Scripts
 
-This script will:
-- Clear the app state
-- Launch the app
-- Navigate through the app to the quiz page
-- Select answers for the quiz
-- Return to the home page
-- Delete the user
-- Verify the quiz page is displayed again
+  - explorartory Tests
+    - deleteUserOngoinQuiz.yaml
+    - exploratoryTests.yaml
+    - InterruptedSessions.yaml
+    - RapidSequence.yaml
+    - reopenAppAfterIntrupption.yaml
 
-### `homePageElements.yaml`
+  - HomePageTests
+    - attemptQuiz.yaml
+    - homePageElements.yaml
+    - quizPage.yaml
+  - UserFlowTest
+    - unusualNavigationSequence.yaml
 
-This script will:
-- Clear the app state
-- Launch the app
-- Verify that the "Track Story", "User Identifier", "Track Quiz", and "Delete User" buttons are displayed on the home page
-
-### `quizPage.yaml`
-
-This script will:
-- Clear the app state
-- Launch the app
-- Navigate through the app to the quiz page
-- Verify the quiz page is displayed
+Command to run:
+```sh
+maestro test Scripts/HomePageTests/FileName.yaml
+```
+```
