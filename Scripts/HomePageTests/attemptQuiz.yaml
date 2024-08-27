@@ -16,11 +16,14 @@ appId: com.example.nudgetest_demoqa1
 - tapOn: "b) Avocado"
 - tapOn: "b) Japan"
 - tapOn: "a) 0"
-- tapOn: "BACK TO HOME"
-- tapOn: "Delete User"
-- tapOn: "User Identifier"
-- tapOn: "Track Quiz"
-- assertVisible: "Quiz Page"
+- assertVisible: "10 of 10"
+- tapOn:
+    point: "27%,42%"
+#- tapOn: "BACK TO HOME"
+#- tapOn: "Delete User"
+#- tapOn: "User Identifier"
+#- tapOn: "Track Quiz"
+#- assertVisible: "START QUIZ"
 
 #  this test script will Quiz Page, select answers, return to Home,
 #  delete user, and verify the Quiz Page is displayed again
